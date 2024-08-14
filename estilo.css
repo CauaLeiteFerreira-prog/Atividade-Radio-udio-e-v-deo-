@@ -1,0 +1,112 @@
+
+
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 238, 141);
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1:hover{
+    color: rgb(0, 98, 255);
+    -webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #8b8721;
+    border-radius: 11%;
+}
+
+.nara,.cartola,.chico,.dj,.jorge{
+    width: 10%;
+max-width: 400px;
+aspect-ratio: 1/1;
+object-fit: cover;
+border-radius: 50%;
+height: 10%;
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+}
+
+.containeR,.containEr,.contaiNer,.contaIner,.contAiner{
+    display: flex;
+    align-items: center;
+    
+}
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+video{
+    border-radius: 9%;
+    width: 600px;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #ff8400;
+    -webkit-box-shadow:  2px 2px 4px 0px #ff8400;
+    box-shadow: 2px 2px 4px 0px #ff8400;
+    -moz-border-radius:7px 7px 7px 7px ;
+    -webkit-border-radius:7px 7px 7px 7px ;
+    border-radius:7px 7px 7px 7px ;
+}
+.radio{
+    width: 100px;
+}
+
+.fundoaudio{
+    background-color: rgb(176, 181, 133);
+}
+
+.fundovideo{
+    background-color: rgb(176, 181, 133);
+    text-align: center;
+}
+
+body{
+    margin: 4%;
+    padding: 0;
+}
+
+a{
+    font-size: larger;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(176, 181, 133);
+  color: black;
+}
